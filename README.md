@@ -1,37 +1,27 @@
 ## FourcCloud代理使用文档
 
-You can use the [editor on GitHub](https://github.com/mvocp/daili/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+在[Github](https://github.com/mvocp/daili/)上查看源码
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### SwapIDC系统对接
+## 准备好**主机代理**、**代理密钥**
+#### Step.1 
+添加服务器，名称随意，IP填写161.117.234.224，插件选择Easypanel，端口3312，填写代理密钥，其他**留空**
+接下来即可正常添加产品（注意：拉斯维加斯有特殊节点，不能使用161.117.234.224作为IP）
 
-### Markdown
+### Whmcs系统对接
+## 准备好**主机代理**、**代理密钥**
+#### Step.1
+添加服务器，名称随意，IP填写161.117.234.224，插件选择Easypanel，端口3312，填写代理密钥，其他**留空**
+## [EasyPanel插件下载](https://qwblog.cn/content/uploadfile/201902/d3561551320839.zip)，解压到modlues（可能打错了）/servers里
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 智简魔方对接（推荐）
+## 准备好**主机代理**、**代理密钥** 或者 我们网站的API代理
+#### Step.1.1
+添加自动化接口，名称随意，IP通前三个，插件Easypanel，端口3312，填密钥，其他**留空**
+接下来即可正常添加产品
 
-```markdown
-Syntax highlighted code block
+#### Step 1.2
+##### 使用API对接，资源——供应商资源，名称随意，选魔方
+##### API地址：https://cloud.vanlla.cn ，用户名就是邮箱，密钥是API密钥，开通产品需要存款对应产品价钱，否则无法自动开通
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mvocp/daili/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# 其他系统以后再说
